@@ -6,4 +6,5 @@ Has a caretaker
 Has food for animals
  */
 public interface Management {
+    void createCaretaker(String name);
 }

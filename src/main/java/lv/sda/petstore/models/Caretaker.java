@@ -4,4 +4,6 @@ package lv.sda.petstore.models;
 // can pet animal(care for it)
 
 public class Caretaker {
+
+    private void generateCaretaker(String name){}
 }

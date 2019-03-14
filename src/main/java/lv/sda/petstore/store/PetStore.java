@@ -17,5 +17,10 @@ public class PetStore {
     public PetStore() {
         management = new StoreManagement();
         uiGenerator = new PetStoreUI(management);
+
+        uiGenerator.generate();
+
+
+
     }
 }
